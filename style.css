@@ -110,7 +110,7 @@ body{
    min-height: 100vh;
    gap: 50px;
 }
-/* left div */
+/* profile section left div */
 .top-left h1{
     color: white;
     font-size: 2.5rem;
@@ -147,7 +147,7 @@ body{
     opacity: 20%;
 }
 
-/* right div */
+/*profile section right div */
 .profile-right { 
     color: #ffffffab;
 }
@@ -166,4 +166,47 @@ body{
 
 .profile-right li{
     margin-bottom: 10px;
+}
+
+/* service section */
+#services{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 60px;
+}
+
+/* service page left section */
+.service-left h1{
+    color: white;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.service-left span{
+    color : #E43A33;
+    text-align: center;
+}
+
+.service-left p{
+    font-size: small;
+    color: #ffffffab;
+}
+
+/* service page right section */
+.service-right{
+    display: flex;
+    gap: 30px;
+    color: #ffffffab;
+}
+
+.branding, .design, .development{
+    background-color: rgba(255, 255, 255, 0.035);
+    padding: 30px 40px;
+}
+.branding i, .design i, .development i{
+    font-size: 20px;
+    color:#E43A33;
 }
