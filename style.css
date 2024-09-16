@@ -61,7 +61,7 @@ body{
 
 /* home section */
 #home{
-    height: 100vh;
+    min-height: 100vh;
     text-align: justify;
 }
 
@@ -100,4 +100,70 @@ body{
 .text p{
     font-size: small;
     color: #ffffffab;
+}
+
+/* profile section */
+#profile{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   gap: 50px;
+}
+/* left div */
+.top-left h1{
+    color: white;
+    font-size: 2.5rem;
+    padding: 0;
+}
+
+.top-left span{
+    color : #E43A33;
+    text-align: center;
+}
+
+.top-left p{
+    font-size: small;
+    color: #ffffffab;
+}
+
+.bottom-left{
+    display: flex;
+    flex-direction: row; 
+    gap: 30px;
+    font-weight: 400;
+    color: #ffffffab;
+}
+
+.bottom-left span{
+    color: #E43A33;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.bottom-left hr{
+    margin: 0;
+    padding: 0;
+    opacity: 20%;
+}
+
+/* right div */
+.profile-right { 
+    color: #ffffffab;
+}
+
+.profile-right h1{
+    color: #E43A33;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+.profile-right ul{
+    list-style: none;
+    padding: 0;
+}
+
+.profile-right li{
+    margin-bottom: 10px;
 }
